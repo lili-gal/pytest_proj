@@ -1,7 +1,7 @@
 """Функции для работы с массивами"""
 
 
-'''def get(array, index, default=None):
+def get(array, index, default=None):
     """
     Извлекает из списка значение по указанному индексу, если индекс существует.
     Если индекс не существует, возвращает значение по умолчанию.
@@ -14,7 +14,7 @@
     if index < 0:
         return default
 
-    return array[index]'''
+    return array[index]
 
 
 def my_slice(coll, start=0, end=None):
